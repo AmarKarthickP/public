@@ -1,0 +1,79 @@
+2024-08-22T04:21:28+00:00 ERROR cURL error 28: SSL connection timeout
+2024-08-22T04:21:30+00:00 ERROR Could not enable webhook for localhost
+2024-08-22T04:21:30+00:00 INFO Trying to create one_cc_address_sync_cron
+2024-08-22T04:21:30+00:00 INFO Failed to create one_cc_address_sync_cron as invalid one cc merchant
+2024-08-22T04:21:30+00:00 INFO Attempting to delete one_cc_address_sync_cron, status: cancelled, message: invalid_1cc_merchant
+2024-08-22T04:21:30+00:00 INFO Deleted one_cc_address_sync_cron  if exists
+2024-08-22T04:21:30+00:00 INFO updateAddressSyncCronData: status=cancelled, message=invalid_1cc_merchant, cronStatus=deleted
+2024-08-22T04:21:30+00:00 INFO create one_cc_plugin_sync_cron successful
+2024-08-22T04:21:31+00:00 ERROR Could not enable webhook for localhost
+2024-08-22T04:21:31+00:00 INFO Trying to create one_cc_address_sync_cron
+2024-08-22T04:21:31+00:00 INFO Failed to create one_cc_address_sync_cron as invalid one cc merchant
+2024-08-22T04:21:31+00:00 INFO Attempting to delete one_cc_address_sync_cron, status: cancelled, message: invalid_1cc_merchant
+2024-08-22T04:21:31+00:00 INFO Deleted one_cc_address_sync_cron  if exists
+2024-08-22T04:21:31+00:00 INFO updateAddressSyncCronData: status=cancelled, message=invalid_1cc_merchant, cronStatus=deleted
+2024-08-22T04:21:31+00:00 INFO create one_cc_plugin_sync_cron successful
+2024-08-22T04:23:24+00:00 ERROR cURL error 28: SSL connection timeout
+2024-08-22T04:24:37+00:00 ERROR cURL error 28: SSL connection timeout
+2024-08-22T04:46:29+00:00 INFO Attempting to delete one_cc_address_sync_cron, status: deactivated, message: 
+2024-08-22T04:46:29+00:00 INFO Deleted one_cc_address_sync_cron  if exists
+2024-08-22T04:46:29+00:00 INFO updateAddressSyncCronData: status=deactivated, message=, cronStatus=deleted
+2024-08-22T04:46:29+00:00 INFO updateAddressSyncCronData:530 - Updating option: ONE_CC_ADDRESS_SYNC_CRON_HOOK
+2024-08-22T04:46:29+00:00 INFO updateAddressSyncCronData:532 -  Successfully Updated Option: ONE_CC_ADDRESS_SYNC_CRON_HOOK
+2024-08-22T04:52:58+00:00 INFO Trying to create one_cc_address_sync_cron
+2024-08-22T04:52:58+00:00 INFO Failed to create one_cc_address_sync_cron as invalid one cc merchant
+2024-08-22T04:52:58+00:00 INFO Attempting to delete one_cc_address_sync_cron, status: cancelled, message: invalid_1cc_merchant
+2024-08-22T04:52:58+00:00 INFO Deleted one_cc_address_sync_cron  if exists
+2024-08-22T04:52:58+00:00 INFO updateAddressSyncCronData: status=cancelled, message=invalid_1cc_merchant, cronStatus=deleted
+2024-08-22T04:52:58+00:00 INFO updateAddressSyncCronData:530 - Updating option: ONE_CC_ADDRESS_SYNC_CRON_HOOK
+2024-08-22T04:52:58+00:00 INFO updateAddressSyncCronData:532 -  Successfully Updated Option: ONE_CC_ADDRESS_SYNC_CRON_HOOK
+2024-08-22T04:52:58+00:00 INFO create one_cc_plugin_sync_cron successful
+2024-08-22T04:53:36+00:00 ERROR Could not enable webhook for localhost
+2024-08-22T04:53:36+00:00 INFO Trying to create one_cc_address_sync_cron
+2024-08-22T04:53:36+00:00 INFO Failed to create one_cc_address_sync_cron as invalid one cc merchant
+2024-08-22T04:53:36+00:00 INFO Attempting to delete one_cc_address_sync_cron, status: cancelled, message: invalid_1cc_merchant
+2024-08-22T04:53:36+00:00 INFO Deleted one_cc_address_sync_cron  if exists
+2024-08-22T04:53:36+00:00 INFO updateAddressSyncCronData: status=cancelled, message=invalid_1cc_merchant, cronStatus=deleted
+2024-08-22T04:53:36+00:00 INFO create one_cc_plugin_sync_cron successful
+2024-08-22T04:57:49+00:00 INFO Called process_payment with params order_id 3381
+2024-08-22T04:57:49+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 3381
+2024-08-22T04:57:52+00:00 INFO getRazorpayPaymentParams 3381
+2024-08-22T04:57:52+00:00 INFO createOrGetRazorpayOrderId 3381 and is1ccCheckout is set to no
+2024-08-22T04:57:52+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 3381 and is_magic_checkout_order is set to no
+2024-08-22T04:57:52+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id3381
+2024-08-22T04:57:52+00:00 INFO Called createRazorpayOrderId with params orderId 3381 and sessionKey razorpay_order_id3381
+2024-08-22T04:57:52+00:00 INFO Called getOrderCreationData with params orderId 3381
+2024-08-22T04:57:52+00:00 INFO Called getOrderCreationData with params orderId 3381 and is1ccOrder is set to no
+2024-08-22T04:57:52+00:00 INFO For order 3381
+2024-08-22T04:57:52+00:00 INFO {"receipt":"3381","amount":319800,"currency":"INR","payment_capture":1,"app_offer":0,"notes":{"woocommerce_order_number":"3381"}}
+2024-08-22T04:57:53+00:00 INFO For order session key razorpay_order_id3381
+2024-08-22T04:59:19+00:00 INFO Called process_payment with params order_id 3381
+2024-08-22T04:59:19+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 3381
+2024-08-22T04:59:23+00:00 INFO getRazorpayPaymentParams 3381
+2024-08-22T04:59:23+00:00 INFO createOrGetRazorpayOrderId 3381 and is1ccCheckout is set to no
+2024-08-22T04:59:23+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 3381 and is_magic_checkout_order is set to no
+2024-08-22T04:59:23+00:00 INFO razorpayOrderId order_OnoymWOwQmoF0t | sessionKey razorpay_order_id3381
+2024-08-22T04:59:23+00:00 INFO Called verifyOrderAmount with params orderId 3381 and rzporderId order_OnoymWOwQmoF0t
+2024-08-22T04:59:24+00:00 INFO Called getOrderCreationData with params orderId 3381
+2024-08-22T04:59:24+00:00 INFO Called getOrderCreationData with params orderId 3381 and is1ccOrder is set to no
+2024-08-22T04:59:51+00:00 INFO Called check_razorpay_response: wc_order_zV2C861xPMBhq
+2024-08-22T04:59:51+00:00 INFO HPOS is enabled and order status: pending
+2024-08-22T04:59:51+00:00 INFO Get order id in check_razorpay_response: orderId 3381
+2024-08-22T04:59:51+00:00 INFO verifySignature orderId: 3381
+2024-08-22T04:59:51+00:00 INFO verifySignature attr
+2024-08-22T04:59:51+00:00 INFO {"razorpay_payment_id":"pay_Onp0cu5meOgpd9","razorpay_signature":"5e84690ed3ad8f0167d4e554407cfe8c8569b4b98ab8b3594bce6f3ba5aea44a","razorpay_order_id":"order_OnoymWOwQmoF0t"}
+2024-08-22T04:59:51+00:00 INFO updateOrder orderId: 3381 , razorpayPaymentId: pay_Onp0cu5meOgpd9 , success: 1
+2024-08-22T04:59:51+00:00 INFO Order details check initiated step 1 for the orderId: 3381
+2024-08-22T04:59:55+00:00 INFO Woocommerce orderId: 3381 processed through callback
+2024-08-22T05:19:23+00:00 INFO Called process_payment with params order_id 3382
+2024-08-22T05:19:23+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 3382
+2024-08-22T05:19:25+00:00 INFO getRazorpayPaymentParams 3382
+2024-08-22T05:19:25+00:00 INFO createOrGetRazorpayOrderId 3382 and is1ccCheckout is set to no
+2024-08-22T05:19:25+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 3382 and is_magic_checkout_order is set to no
+2024-08-22T05:19:25+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id3382
+2024-08-22T05:19:25+00:00 INFO Called createRazorpayOrderId with params orderId 3382 and sessionKey razorpay_order_id3382
+2024-08-22T05:19:25+00:00 INFO Called getOrderCreationData with params orderId 3382
+2024-08-22T05:19:25+00:00 INFO Called getOrderCreationData with params orderId 3382 and is1ccOrder is set to no
+2024-08-22T05:19:25+00:00 INFO For order 3382
+2024-08-22T05:19:25+00:00 INFO {"receipt":"3382","amount":21200,"currency":"INR","payment_capture":1,"app_offer":0,"notes":{"woocommerce_order_number":"3382"}}
+2024-08-22T05:19:27+00:00 INFO For order session key razorpay_order_id3382
